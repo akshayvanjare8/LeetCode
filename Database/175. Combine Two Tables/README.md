@@ -5,7 +5,6 @@
 | personId    | int     |
 | lastName    | varchar |
 | firstName   | varchar |
-|-------------|---------|
 
 personId is the primary key column for this table.
 This table contains information about the ID of some persons and their first and last names.
@@ -19,7 +18,6 @@ This table contains information about the ID of some persons and their first and
 | personId    | int     |
 | city        | varchar |
 | state       | varchar |
-|-------------|---------|
 
 addressId is the primary key column for this table.
 Each row of this table contains information about the city and state of one person with ID = PersonId.
@@ -42,7 +40,6 @@ Person table:
 |----------|----------|-----------|
 | 1        | Wang     | Allen     |
 | 2        | Alice    | Bob       |
-|----------|----------|-----------|
 
 Address table:
 
@@ -50,7 +47,6 @@ Address table:
 |-----------|----------|---------------|------------|
 | 1         | 2        | New York City | New York   |
 | 2         | 3        | Leetcode      | California |
-|-----------|----------|---------------|------------|
 
 Output: 
 
@@ -58,7 +54,6 @@ Output:
 |-----------|----------|---------------|----------|
 | Allen     | Wang     | Null          | Null     |
 | Bob       | Alice    | New York City | New York |
-|-----------|----------|---------------|----------|
 
 ###Explanation: 
 There is no address in the address table for the personId = 1 so we return null in their city and state.
