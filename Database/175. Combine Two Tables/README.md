@@ -20,6 +20,7 @@ This table contains information about the ID of some persons and their first and
 | city        | varchar |
 | state       | varchar |
 |-------------|---------|
+
 addressId is the primary key column for this table.
 Each row of this table contains information about the city and state of one person with ID = PersonId.
  
