@@ -2,7 +2,7 @@ Table: Employee
 
 
 | Column Name | Type |
-+-------------+------+
+|-------------|------|
 | id          | int  |
 | salary      | int  |
 
@@ -24,7 +24,7 @@ Input:
 Employee table:
 
 | id | salary |
-+----+--------+
+|----|--------|
 | 1  | 100    |
 | 2  | 200    |
 | 3  | 300    |
@@ -33,7 +33,7 @@ Employee table:
 Output: 
 
 | SecondHighestSalary |
-+---------------------+
+|---------------------|
 | 200                 |
 
 
@@ -45,12 +45,12 @@ Employee table:
 
 
 | id | salary |
-+----+--------+
+|----|--------|
 | 1  | 100    |
 
 Output: 
 
 
 | SecondHighestSalary |
-+---------------------+
+|---------------------|
 | null                |
