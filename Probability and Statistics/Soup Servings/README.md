@@ -28,7 +28,9 @@ For the third operation, A and B will become empty at the same time.
 
 For the fourth operation, B will become empty first.
 
-So the total probability of A becoming empty first plus half the probability that A and B become empty at the same time, is 0.25 * (1 + 1 + 0.5 + 0) = 0.625.
+So the total probability of A becoming empty first plus half the probability that A and B become empty at the same time, 
+
+is 0.25 * (1 + 1 + 0.5 + 0) = 0.625.
 
 ### Example 2:
 
